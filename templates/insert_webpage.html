@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Topic Table</title>
+</head>
+<body>
+    <center>
+        <h1>Insert_Webpage</h1>
+        <form method="POST">
+            {% csrf_token %}   
+            <label for="tn">TOPIC NAME</label>
+            <input type="text" , name="tn" , id="tn"></input><br>
+
+            <label for="na">NAME</label>
+            <input type="text" , name="na" , id="na"></input><br>
+
+            <label for="url">URL</label>
+            <input type="url" , name="url" , id="url"></input><br>
+
+            <label for="email">EMAIL</label>
+            <input type="email" , name="email" , id="email"></input><br>
+            <input type="submit">
+        </form>
+    <center>
+</center>
+</body>
+</html>
